@@ -10,7 +10,7 @@ function Profile() {
 
   return (
     <div className='flex flex-col items-center justify-center'>
-      <div className="text-3xl mt-5 italic ">
+      <div className="text-3xl mt-5 italic text-pink-400 ">
         Welcome {user.name}
       </div>
         <div>
