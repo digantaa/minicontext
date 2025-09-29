@@ -8,7 +8,7 @@ function Login() {
   const {setUser} = useContext(UserContext)
 
   const handleSubmit = (e) => {
-    e.preventDeafult();
+    e.preventDefault();
     setUser({name, password})
   };
   return (

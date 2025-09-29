@@ -1,4 +1,3 @@
-import { Count } from './component/Count';
 import UserContextProvider from './context/UserContextProvider';
 import Login from './component/Login';
 import Profile from './component/Profile';
